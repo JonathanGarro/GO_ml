@@ -89,10 +89,10 @@ def get_user_input_with_hazard():
 
     return new_data
 
-# Get user input
+# get user input
 new_data = get_user_input_with_hazard()
 
-# Use the pipeline to preprocess the new data and make predictions
+# use the pipeline to preprocess the new data and make predictions
 new_data_pred = pipeline.predict(new_data)
 
 print("\nPredicted amount requested:", new_data_pred[0])
